@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import nasir from './nasir';
+import Nasir from './Nasir';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,7 +16,7 @@ const cors = require("cors")
 root.render(
   <React.StrictMode>
     <App />
-    <nasir />
+    <Nasir />
     
   </React.StrictMode>
 );
